@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="scrollableElement">
     <header class="header">
         <div class="container">
             <div class="row">
@@ -20,7 +20,8 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-10 col-md-8">
-                    <nav>
+
+                    <nav class="navigation">
                         <ul class="header-menu">
                             <li><a href="">home</a></li>
                             <li><a href="">about</a></li>
@@ -31,23 +32,29 @@
                             <li><a href="">contact</a></li>
                         </ul>
                     </nav>
-                </div>
-                <div class="hidden-xs hidden-sm col-md-2">
-                    <form action="" method="">
-                        <div class="header-search">
-                            <input type="text" id="header-search" name="search" placeholder="search" class="header-input">
 
-                            <button id="loupe" type="submit" class="header-search-icon">
-                            </button>
-                        </div>
-                    </form>
+                    <div class="nav-mobile-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="hidden-xs hidden-sm col-md-2">
+                        <form action="" method="">
+                            <div class="header-search">
+                                <input type="text" id="header-search" name="search" placeholder="search" class="header-input">
+
+                                <but ton id="loupe" type="submit" class="header-search-icon">
+                                    </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
     </header>
     <main>
-        <section class="">
-            <div class="slider slider-background">
+        <section>
+            <div class="slider">
                 <div class="container">
 
                     <div class="slider-container">
@@ -64,44 +71,56 @@
                     </div>
 
                 </div>
+            </div>
         </section>
         <section>
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-12">
-                        <div class="slider-heading section-title">We are modest.</div>
+                        <div class="slider-heading">We are modest.</div>
                     </div>
                     <div class="flex-md">
 
                         <div class="col-xs-12 col-md-7">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea dolore laudantium adipisci voluptate totam voluptas nobis quos, optio temporibus impedit similique natus ipsam vitae iste accusamus libero at vero.</p>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea dolore laudantium adipisci voluptate totam voluptas nobis quos, optio temporibus impedit similique natus ipsam vitae iste accusamus libero at vero.</p>
-                            <div class="social-media-bkgrnd">
-                                <a href="https://www.facebook.com/" title="facebook" target="_blank">
-                                    <img src="images/FB.png" alt=""></a>
-                                <a href="https://twitter.com/?lang=uk" title="twitter" target="_blank"><img src="images/tweeter.png" alt=""></a>
-                                <a href="https://www.google.com/" title="google" target="_blank"><img src="images/GOOGLE48.png" alt=""></a>
-                                <a href="#"><img src="images/world.png" alt=""></a>
-                                <a href="https://www.behance.net/" title="behance" target="_blank"><img src="images/Be48-48.png" alt=""></a></div>
+
                         </div>
+
                         <div class="col-xs-12 col-md-5">
-                            <ol>
-                                <li>
+
+
+                            <div class="row1">
+                                <div class="col-xs-2 section1-number-square">1
+                                </div>
+                                <div class="col-xs-10">
                                     <p class="title-p">Lorem ipsum dolor sit amet.</p>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe atque laborum earum nesciunt ex dicta!</p>
-                                </li>
-                                <li>
+                                </div>
+                            </div>
+
+
+                            <div class="row1">
+                                <div class="col-xs-2 section1-number-square">2</div>
+                                <div class="col-xs-10">
                                     <p class="title-p">Lorem ipsum dolor sit amet.</p>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe atque laborum earum nesciunt ex dicta!</p>
-                                </li>
-                                <li>
+                                </div>
+                            </div>
+
+                            <div class="row1">
+                                <div class="col-xs-2 section1-number-square">3</div>
+                                <div class="col-xs-10">
                                     <p class="title-p">Lorem ipsum dolor sit amet.</p>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe atque laborum earum nesciunt ex dicta!</p>
-                                </li>
-                            </ol>
+                                </div>
+                            </div>
+
                         </div>
+
                     </div>
                 </div>
+            </div>
             </div>
         </section>
         <hr>
@@ -109,24 +128,60 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <div class="slider-heading section-title">Meet the team.</div>
+                        <div class="slider-heading section-title">Meet the team.
+                        </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-3">
-                        <img src="images/face1.png" alt="">
+
+                        <figure>
+                            <a href="#" title="CEO and Founder">
+                                <img src="images/face1.png" alt="">
+                                <figcaption>
+                                    <div class="fig-name">Gloria Bromlay</div>
+                                    <div class="fig-title">CEO and Founder</div>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-lg-3">
+                        <figure>
+                            <a href="#" title="CEO and Founder">
+                                <img src="images/face2.png" alt="">
+                                <figcaption>
+                                    <div class="fig-name">Gloria Bromlay</div>
+                                    <div class="fig-title">CEO and Founder</div>
+                                </figcaption>
+                            </a>
+
+                        </figure>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-3">
-                        <img src="images/face2.png" alt="">
+                        <figure>
+                            <a href="#" title="CEO and Founder">
+                                <img src="images/face3.png" alt="">
+                                <figcaption>
+                                    <div class="fig-name">Gloria Bromlay</div>
+                                    <div class="fig-title">CEO and Founder</div>
+                                </figcaption>
+                            </a>
+                        </figure>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-3">
-                        <img src="images/face3.png" alt="">
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-lg-3">
-                        <img src="images/face4.png" alt="">
+                        <figure>
+                            <a href="#" title="CEO and Founder">
+                                <img src="images/face4.png" alt="">
+                                <figcaption class="figcaption">
+                                    <div class="fig-name">Gloria Bromlay</div>
+                                    <div class="fig-title">CEO and Founder</div>
+                                </figcaption>
+                            </a>
+                        </figure>
                     </div>
                 </div>
             </div>
         </section>
-        <hr>
+
         <section class="section3 dark">
             <div class="container">
                 <div class="row">
@@ -134,18 +189,21 @@
                         <div class="slider-heading section-title">lovely work.</div>
                     </div>
 
-                    <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4"><img src="images/img (9).png" alt="">
+                    <div class="dark-img col-xs-12  col-md-6 col-lg-4"><img src="images/img (9).png" alt="">
                     </div>
-                    <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4"><img src="images/img (10).png" alt="">
+                    <div class="dark-img col-xs-12  col-md-6 col-lg-4"><img src="images/img (10).png" alt="">
                     </div>
-                    <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4"><img src="images/img (11).png" alt="">
+                    <div class="dark-img col-xs-12  col-md-6 col-lg-4"><img src="images/img (11).png" alt="">
                     </div>
-                    <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4"><img src="images/img (12).png" alt="">
+                    <div class="dark-img col-xs-12  col-md-6 col-lg-4"><img src="images/img (12).png" alt="">
                     </div>
-                    <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4"><img src="images/img (13).png" alt="">
+                    <div class="dark-img col-xs-12  col-md-6 col-lg-4"><img src="images/img (13).png" alt="">
                     </div>
-                    <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4"><img src="images/img (14).png" alt="">
+                    <div class="dark-img col-xs-12  col-md-6 col-lg-4"><img src="images/img (14).png" alt="">
+                    </div>
 
+                    <div class="col-xs-12">
+                        <div class="btns1 btns"><a href="">show me more</a></div>
                     </div>
 
                 </div>
@@ -159,64 +217,182 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-lg-3">
-                        <div class="bgrdImg"><img src="images/icon (12).png" alt=""></div>
-                        <div class="title-p section4-titleCenter">easy theme setup</div>
+                        <div class="center">
+                            <div class="bgrdImg"><img src="images/icon (12).png" alt=""></div>
+                            <div class="title-p section4-titleCenter">easy theme setup</div>
+                        </div>
                         <p class="section4-textCenter">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
 
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-3">
-                        <div class="bgrdImg"><img src="images/icon (14).png" alt=""></div>
-                        <div class="title-p section4-titleCenter">pixel perfect design</div>
-
+                        <div class="center">
+                            <div class="bgrdImg"><img src="images/icon (14).png" alt=""></div>
+                            <div class="title-p section4-titleCenter">pixel perfect design</div>
+                        </div>
                         <p class="section4-textCenter">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
 
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-3">
-                        <div class="bgrdImg"><img src="images/icon (11).png" alt=""></div>
-                        <div class="title-p section4-titleCenter">reponsive display</div>
-
+                        <div class="center">
+                            <div class="bgrdImg"><img src="images/icon (11).png" alt=""></div>
+                            <div class="title-p section4-titleCenter">reponsive display</div>
+                        </div>
                         <p class="section4-textCenter">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
 
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-3">
-                        <div class="bgrdImg"><img src="images/icon (13).png" alt=""></div>
-                        <div class="title-p section4-titleCenter">24/7 support</div>
-
+                        <div class="center">
+                            <div class="bgrdImg"><img src="images/icon (13).png" alt=""></div>
+                            <div class="title-p section4-titleCenter">24/7 support</div>
+                        </div>
                         <p class="section4-textCenter">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
 
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-lg-3">
-                        <div class="bgrdImg"><img src="images/icon (12).png" alt=""></div>
-                        <div class="title-p section4-titleCenter">easy theme setup</div>
+                        <div class="center">
+                            <div class="bgrdImg"><img src="images/icon (12).png" alt=""></div>
+                            <div class="title-p section4-titleCenter">easy theme setup</div>
+                        </div>
+                        <p class="section4-textCenter">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
+                    </div>
+
+
+                    <div class="col-xs-12 col-sm-6 col-lg-3">
+                        <div class="center">
+                            <div class="bgrdImg"><img src="images/icon (14).png" alt=""></div>
+                            <div class="title-p section4-titleCenter">pixel perfect design</div>
+                        </div>
                         <p class="section4-textCenter">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
 
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-3">
-                        <div class="bgrdImg"><img src="images/icon (14).png" alt=""></div>
-                        <div class="title-p section4-titleCenter">pixel perfect design</div>
-
+                        <div class="center">
+                            <div class="bgrdImg"><img src="images/icon (11).png" alt=""></div>
+                            <div class="title-p section4-titleCenter">reponsive display</div>
+                        </div>
                         <p class="section4-textCenter">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
 
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-3">
-                        <div class="bgrdImg"><img src="images/icon (11).png" alt=""></div>
-                        <div class="title-p section4-titleCenter">reponsive display</div>
-
-                        <p class="section4-textCenter">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
-
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-lg-3">
-                        <div class="bgrdImg"><img src="images/icon (13).png" alt=""></div>
-                        <div class="title-p section4-titleCenter">24/7 support</div>
-
+                        <div class="center">
+                            <div class="bgrdImg"><img src="images/icon (13).png" alt=""></div>
+                            <div class="title-p section4-titleCenter">24/7 support</div>
+                        </div>
                         <p class="section4-textCenter">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
 
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="section5 dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 slider-heading section-title">features.</div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="dark-img"><img src="images/img (15).png" alt="">
+                        </div>
+                        <div>
+                            <div class="title-p section4-titleCenter-vS5">pixel perfect design</div>
+
+                            <p class="section4-textCenter-vS5">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="dark-img"><img src="images/img (14).png" alt=""></div>
+                        <div>
+                            <div>
+                                <div class="title-p section4-titleCenter-vS5">pixel perfect design
+
+                                </div>
+
+                                <p class="section4-textCenter-vS5">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="dark-img"><img src="images/img (13).png" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <div class="title-p section4-titleCenter-vS5">pixel perfect design</div>
+
+                                <p class="section4-textCenter-vS5">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section6">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 slider-heading section-title">stay in touch.</div>
+
+                </div>
+            </div>
+            <div class="iframe"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164705.55762681522!2d23.872152863506173!3d49.83260464310914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7c09109a57%3A0x4223c517012378e2!2z0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNGX0L3QsCwgNzkwMDA!5e0!3m2!1suk!2sfr!4v1652046499607!5m2!1suk!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <p class=" title-p">Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe atque laborum earum nesciunt ex dicta!Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <p>Saepe atque laborum earum nesciunt ex dicta
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe atque laborum earum nesciunt ex dicta.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="btns btns1  btn-flex sendMessage"><a class="" href="">send message</a></div>
+                    </div>
+
+                </div>
+            </div>
+
         </section>
     </main>
-    <footer>footer</footer>
+    <footer>
+        <div class="dark footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-10">
+                        <div> ©2014 by PSD Booster. All rights reserved.</div>
+
+
+                    </div>
+
+                    <div class=" col-xs-12 col-sm-2"><a href="#">Λ</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="modal-block">
+            <form action="">
+
+                <div class="btn-close">X</div>
+                <div class="title">Contact us</div>
+
+
+                <div class="form-fields">
+                    <input type="text" placeholder="Your name" id="name" name="name">
+
+                    <input type="text" placeholder="Your phone" id="phoneNumber" name="phone">
+                </div>
+                <div class="text-field">
+                    <textarea name="text" id="text" placeholder="Wrigt your message" rows="10"></textarea>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="modal-btn btns btns1 row"><a href="">send message</a></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 
 </html>
