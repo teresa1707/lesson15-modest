@@ -101,7 +101,9 @@ body {
   border: 2px solid #23b7a4;
   border-radius: 6%;
 }
-
+.btn-center {
+  justify-content: center;
+}
 header form {
   margin-top: 3px;
 }

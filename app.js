@@ -1,10 +1,9 @@
 /* lesson 23 for navigation */
 
 const modal = document.querySelector(".modal");
-const closeBtn = document.querySelector(".btn-close");
-console.log(closeBtn, modal);
 const sendMessage = document.querySelector(".sendMessage");
-console.log(sendMessage);
+const closeBtn = document.querySelector(".btn-close");
+console.log(closeBtn, modal, sendMessage);
 
 function openModal() {
   modal.classList.add("show");
@@ -32,7 +31,7 @@ function showModalByScroll() {
 
   if (window.pageYOffset > document.body.scrollHeight / 2) {
     openModal();
-    //zabraty scroll pisla pershogo razu
+    //zabraty scroll
     window.removeEventListener("scroll", showModalByScroll);
   }
 }
