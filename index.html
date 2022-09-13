@@ -8,6 +8,8 @@
     <title>Modest</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body id="scrollableElement">
@@ -31,6 +33,7 @@
                             <li><a href="">features</a></li>
                             <li><a href="">contact</a></li>
                         </ul>
+
                     </nav>
 
                     <div class="nav-mobile-menu">
@@ -44,8 +47,8 @@
                         <div class="header-search">
                             <input type="text" id="header-search" name="search" placeholder="search" class="header-input">
 
-                            <but ton id="loupe" type="submit" class="header-search-icon">
-                                </button>
+                            <button id="loupe" type="submit" class="header-search-icon">
+                            </button>
                         </div>
                     </form>
                 </div>
@@ -73,11 +76,12 @@
                 </div>
             </div>
         </section>
+        <!-- <div data-aos="flip-up"> -->
         <section>
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-12">
-                        <div class="slider-heading">We are modest.</div>
+                        <div class="slider-heading section-title">We are modest.</div>
                     </div>
                     <div class="flex-md">
 
@@ -129,9 +133,11 @@
                     </div>
                 </div>
             </div>
-            </div>
+
         </section>
+        <!-- </div> -->
         <hr>
+        <!-- <div data-aos="zoom-in"> -->
         <section>
             <div class="container">
                 <div class="row">
@@ -141,55 +147,82 @@
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-3">
 
-                        <figure>
-                            <a href="#" title="CEO and Founder">
-                                <img src="images/face1.png" alt="">
-                                <figcaption>
+                        <figure class="relative">
+
+                            <img src="images/face1.png" alt="" class="face">
+
+                            <figcaption><a href="#" title="CEO and Founder">
                                     <div class="fig-name">Gloria Bromlay</div>
                                     <div class="fig-title">CEO and Founder</div>
-                                </figcaption>
-                            </a>
+                                </a>
+                            </figcaption>
+
+                            <div class="social-media-bkgrnd photo-hover-social-media">
+                                <a href="#"><img src="./images/FB.png" alt=""></a>
+                                <a href="#"><img src="./images/tweeter.png" alt=""></a>
+                                <a href="#"><img src="./images/ln.png" alt=""></a>
+                            </div>
                         </figure>
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-lg-3">
-                        <figure>
-                            <a href="#" title="CEO and Founder">
-                                <img src="images/face2.png" alt="">
-                                <figcaption>
-                                    <div class="fig-name">Gloria Bromlay</div>
-                                    <div class="fig-title">CEO and Founder</div>
-                                </figcaption>
-                            </a>
+                        <figure class="relative">
 
+                            <img src="images/face2.png" alt="" class="face">
+
+                            <figcaption><a href="#" title="CEO and Founder">
+                                    <div class="fig-name">Gloria Bromlay</div>
+                                    <div class="fig-title">CEO and Founder</div>
+                                </a>
+                            </figcaption>
+
+                            <div class="social-media-bkgrnd photo-hover-social-media">
+                                <a href="#"><img src="./images/FB.png" alt=""></a>
+                                <a href="#"><img src="./images/tweeter.png" alt=""></a>
+                                <a href="#"><img src="./images/ln.png" alt=""></a>
+                            </div>
                         </figure>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-3">
-                        <figure>
-                            <a href="#" title="CEO and Founder">
-                                <img src="images/face3.png" alt="">
-                                <figcaption>
+                        <figure class="relative">
+
+                            <img src="images/face3.png" alt="" class="face">
+
+                            <figcaption><a href="#" title="CEO and Founder">
                                     <div class="fig-name">Gloria Bromlay</div>
                                     <div class="fig-title">CEO and Founder</div>
-                                </figcaption>
-                            </a>
+                                </a>
+                            </figcaption>
+
+                            <div class="social-media-bkgrnd photo-hover-social-media">
+                                <a href="#"><img src="./images/FB.png" alt=""></a>
+                                <a href="#"><img src="./images/tweeter.png" alt=""></a>
+                                <a href="#"><img src="./images/ln.png" alt=""></a>
+                            </div>
                         </figure>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-lg-3">
-                        <figure>
-                            <a href="#" title="CEO and Founder">
-                                <img src="images/face4.png" alt="">
-                                <figcaption class="figcaption">
+                        <figure class="relative">
+
+                            <img src="images/face4.png" alt="" class="face">
+
+                            <figcaption class="figcaption"><a href="#" title="CEO and Founder">
                                     <div class="fig-name">Gloria Bromlay</div>
                                     <div class="fig-title">CEO and Founder</div>
-                                </figcaption>
-                            </a>
+                                </a></figcaption>
+
+                            <div class="social-media-bkgrnd photo-hover-social-media">
+                                <a href="#"><img src="./images/FB.png" alt=""></a>
+                                <a href="#"><img src="./images/tweeter.png" alt=""></a>
+                                <a href="#"><img src="./images/ln.png" alt=""></a>
+                            </div>
                         </figure>
                     </div>
                 </div>
             </div>
         </section>
-
+        <!-- </div>
+        <div data-aos="flip-up"> -->
         <section class="section3 dark">
             <div class="container">
                 <div class="row">
@@ -197,17 +230,72 @@
                         <div class="slider-heading section-title">lovely work.</div>
                     </div>
 
-                    <div class="dark-img col-xs-12  col-md-6 col-lg-4"><img src="images/img (9).png" alt="">
+                    <div class="dark-img col-xs-12  col-md-6 col-lg-4">
+                        <div id="img-1">
+                            <div class="img-block1">
+                                <div class="plus">+</div>
+                            </div>
+                            <div class="img-block">
+
+                                <h3>PARTNERSHIP GUIDELINES</h3>
+                            </div>
+                            <img id="image" src="images/img (9).png" alt="">
+                        </div>
                     </div>
-                    <div class="dark-img col-xs-12  col-md-6 col-lg-4"><img src="images/img (10).png" alt="">
+                    <div class="dark-img col-xs-12  col-md-6 col-lg-4">
+                        <div id="img-1">
+                            <div class="img-block1">
+                                <div class="plus">+</div>
+                            </div>
+                            <div class="img-block">
+
+                                <h3>PARTNERSHIP GUIDELINES</h3>
+                            </div><img id="image" src="images/img (10).png" alt="">
+                        </div>
                     </div>
-                    <div class="dark-img col-xs-12  col-md-6 col-lg-4"><img src="images/img (11).png" alt="">
+                    <div class="dark-img col-xs-12  col-md-6 col-lg-4">
+                        <div id="img-1">
+                            <div class="img-block1">
+                                <div class="plus">+</div>
+                            </div>
+                            <div class="img-block">
+
+                                <h3>PARTNERSHIP GUIDELINES</h3>
+                            </div><img id="image" src="images/img (11).png" alt="">
+                        </div>
                     </div>
-                    <div class="dark-img col-xs-12  col-md-6 col-lg-4"><img src="images/img (12).png" alt="">
+                    <div class="dark-img col-xs-12  col-md-6 col-lg-4">
+                        <div id="img-1">
+                            <div class="img-block1">
+                                <div class="plus">+</div>
+                            </div>
+                            <div class="img-block">
+
+                                <h3>PARTNERSHIP GUIDELINES</h3>
+                            </div><img id="image" src="images/img (12).png" alt="">
+                        </div>
                     </div>
-                    <div class="dark-img col-xs-12  col-md-6 col-lg-4"><img src="images/img (13).png" alt="">
+                    <div class="dark-img col-xs-12  col-md-6 col-lg-4">
+                        <div id="img-1">
+                            <div class="img-block1">
+                                <div class="plus">+</div>
+                            </div>
+                            <div class="img-block">
+
+                                <h3>PARTNERSHIP GUIDELINES</h3>
+                            </div><img id="image" src="images/img (13).png" alt="">
+                        </div>
                     </div>
-                    <div class="dark-img col-xs-12  col-md-6 col-lg-4"><img src="images/img (14).png" alt="">
+                    <div class="dark-img col-xs-12  col-md-6 col-lg-4">
+                        <div id="img-1">
+                            <div class="img-block1">
+                                <div class="plus">+</div>
+                            </div>
+                            <div class="img-block">
+
+                                <h3>PARTNERSHIP GUIDELINES</h3>
+                            </div><img id="image" src="images/img (14).png" alt="">
+                        </div>
                     </div>
 
                     <div class="col-xs-12 ">
@@ -217,6 +305,8 @@
                 </div>
             </div>
         </section>
+        <!-- </div>
+        <div data-aos="zoom-in"> -->
         <section class="section4">
             <div class="container">
                 <div class="row">
@@ -293,10 +383,14 @@
                 </div>
             </div>
         </section>
+        <!-- </div>
+        <div data-aos="zoom-in-up"> -->
         <section class="section5 dark">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 slider-heading section-title">features.</div>
+                    <div class="col-xs-12">
+                        <div class="slider-heading section-title">features.</div>
+                    </div>
                     <div class="col-xs-12 col-md-4">
                         <div class="dark-img"><img src="images/img (15).png" alt="">
                         </div>
@@ -332,9 +426,9 @@
                 </div>
             </div>
         </section>
-
+        <!-- </div>
+        <div data-aos="zoom-in-up"> -->
         <section class="section6">
-
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 slider-heading section-title">stay in touch.</div>
@@ -347,38 +441,38 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6">
-                        <p class=" title-p">Lorem ipsum dolor sit amet.</p>
+                        <p class=" title-p">Contact information</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe atque laborum earum nesciunt ex dicta!Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                        <p>Saepe atque laborum earum nesciunt ex dicta
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe atque laborum earum nesciunt ex dicta.
+                        <p>Saepe atque laborum earum nesciunt ex dicta.Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </p>
                     </div>
-                    <div class="col-xs-12 col-sm-6">
-                        <div class="btns btns1  btn-flex sendMessage"><a class="" href="">send message</a></div>
+                    <div class="col-xs-12 col-sm-6 flex">
+                        <div class="sendMessage">send message</div>
                     </div>
 
                 </div>
             </div>
 
         </section>
+        <!-- </div> -->
     </main>
     <footer>
         <div class="dark footer">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-9">
-                        <div> ©2014 by PSD Booster. All rights reserved.</div>
+                        <h3> ©2014 by PSD Booster. All rights reserved.</h3>
 
 
                     </div>
 
                     <div class=" col-xs-12 col-sm-3">
                         <div class="footer-social-media-bkgrnd">
-                            <a href="#"><img src="./images/fb (2).png" alt=""></a>
-                            <a href="#"><img src="./images/tweeter small.png" alt=""></a>
-                            <a href="#"><img src="./images/ln.png" alt=""></a>
-                            <a href="#"><img src="./images/skype.png" alt=""></a>
-                            <a href="#"><img src="./images/Be48-48.png" alt=""></a>
+                            <img src="./images/fb (2).png" alt="">
+                            <img src="./images/tweeter small.png" alt="">
+                            <img src="./images/ln.png" alt="">
+                            <img src="./images/skype.png" alt="">
+                            <img src="./images/Be48-48.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -397,18 +491,22 @@
                 <div class="form-fields">
                     <input type="text" placeholder="Your name" id="name" name="name">
 
-                    <input type="text" placeholder="Your phone" id="phoneNumber" name="phone">
+                    <input type="text" placeholder="Your mail" id="mail" name="mail">
                 </div>
                 <div class="text-field">
-                    <textarea name="text" id="text" placeholder="Wrigt your message" rows="10"></textarea>
+                    <textarea name="text" id="text" placeholder="Wright your message" rows="10"></textarea>
                 </div>
                 <div class="col-xs-12 col-sm-6">
-                    <div class="modal-btn btns btns1 row"><a href="">send message</a></div>
+                    <div class="modal-btn btns btns1 row "><a href="">send message</a></div>
                 </div>
             </form>
         </div>
     </div>
-    <script src="app.js"></script>
+    <script src=" app.js">
+    </script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
