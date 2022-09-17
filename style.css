@@ -36,6 +36,7 @@ xl
 }
 body {
     font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
 }
 .header {
     background-color: #1d2126;
