@@ -16,8 +16,8 @@
     max-width: 83.33333%;
 }
 .col-xs-11 {
-    flex: 0 0 91, 66667%;
-    max-width: 91, 66667%;
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
 }
 .col-xs-12 {
     flex: 0 0 100%;
@@ -53,8 +53,6 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 15px;
-    margin-right: 15px;
 }
 
 .row1 {
@@ -81,20 +79,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    padding: 0 1.5rem;
 }
 .header-menu {
     display: flex;
     justify-content: space-evenly;
     padding: 0;
-
     height: 100%;
 }
 
 .header-menu a,
 .btns a {
     font-size: 14px;
-    font-weight: 600px;
+    font-weight: 600;
     text-decoration: none;
     color: white;
     border: 2px solid transparent;
