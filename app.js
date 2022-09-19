@@ -60,11 +60,11 @@ const figureImages = document.querySelectorAll(".face");
 console.log(socials, figureImages);
 
 for (let i = 0; i < figureImages.length; i++) {
-    figureImages[i].addEventListener("mouseover", function showSocial() {
+    figureImages[i].addEventListener("mouseenter", function showSocial() {
         socials[i].setAttribute("style", "display:block;");
     });
 
-    figureImages[i].addEventListener("mouseout", function hideSocial() {
+    figureImages[i].addEventListener("mouseleave", function hideSocial() {
         socials[i].setAttribute("style", "display:none;");
     });
 }
