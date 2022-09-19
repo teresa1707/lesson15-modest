@@ -832,8 +832,8 @@ figure .fig-name {
         top: 0;
     }
     .modal-block {
-        width: 90%;
-        margin: 80px auto;
+        width: 100vw;
+        margin: 20px auto;
         border: 1px solid #c8cdd0;
         border-radius: 5px;
         background-color: white;
@@ -908,11 +908,17 @@ figure .fig-name {
         width: 15px;
         height: 15px;
         position: relative;
-        left: 50%;
+        left: 80%;
     }
     .section4-textCenter,
     section4-textCenter-vS5,
     p {
         font-size: 10px;
+    }
+}
+@media (max-width: 260px) {
+    .nav-mobile-menu {
+        position: relative;
+        left: 40%;
     }
 }
