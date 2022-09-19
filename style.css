@@ -893,6 +893,10 @@ figure .fig-name {
         padding: 15px;
         font-weight: bold;
     }
+    .social-media-bkgrnd img {
+        display: block;
+        margin: 0;
+    }
 }
 @media (max-width: 330px) {
     .face,
@@ -910,9 +914,5 @@ figure .fig-name {
     section4-textCenter-vS5,
     p {
         font-size: 10px;
-    }
-    .social-media-bkgrnd img {
-        display: block;
-        margin: 0;
     }
 }
