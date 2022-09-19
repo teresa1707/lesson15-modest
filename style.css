@@ -911,7 +911,8 @@ figure .fig-name {
     p {
         font-size: 10px;
     }
-    .social-media-bkgrnd a {
+    .social-media-bkgrnd img {
         display: block;
+        margin: 0;
     }
 }
