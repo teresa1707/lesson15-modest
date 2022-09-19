@@ -64,7 +64,7 @@ for (let i = 0; i < figureImages.length; i++) {
         socials[i].setAttribute("style", "display:block;");
     });
 
-    // figureImages[i].addEventListener("mouseleave", function hideSocial() {
-    //     socials[i].setAttribute("style", "display:none;");
-    // });
+    figureImages[i].addEventListener("mouseleave", function hideSocial() {
+        socials[i].setAttribute("style", "display:none;");
+    });
 }
