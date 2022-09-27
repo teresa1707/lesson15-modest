@@ -240,12 +240,13 @@ p {
     width: 60px;
     height: 60px;
 }
-
-.social-media-bkgrnd img:hover {
-    background-color: #3a454d;
+.hover:hover {
+    background-color: #c8cdd0;
 }
+
 figure .social-media-bkgrnd img {
     background-color: #3a454d;
+    border-radius: 2px;
 }
 
 .footer-social-media-bkgrnd img {
