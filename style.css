@@ -240,7 +240,11 @@ p {
     width: 60px;
     height: 60px;
 }
-.hover:hover {
+.social-media-bkgrnd img:hover {
+    background-color: #3a454d;
+}
+
+figure .hover:hover {
     background-color: #c8cdd0;
 }
 
